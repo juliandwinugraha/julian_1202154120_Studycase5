@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="headline" type="id">Headline</item>
+    <item name="explanation" type="id">Explanation</item>
+    <item name="number" type="id">Number</item>
+    <item name="cardlist" type="id">Cardlist</item>
+    <item name="editTodo" type="id">EditToDo</item>
+    <item name="editDesc" type="id">EditDesc</item>
+    <item name="editPriority" type="id">EditPriority</item>
+    <item name="recview" type="id">Recview</item>
+    <item name="coor" type="id">Coor</item>
+</resources>

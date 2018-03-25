@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.julian_1202154120_studycase5.Setting">
+
+    <LinearLayout
+        android:clickable="true"
+        android:onClick="choosecolor"
+        android:orientation="vertical"
+        android:background="?attr/selectableItemBackground"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:padding="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textColor="@android:color/black"
+                android:textSize="22sp"
+                android:text="@string/shape_color"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:text="@string/shape_color"
+                android:id="@+id/shapecolor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <View
+            android:background="#e0d7d7"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"></View>
+    </LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>

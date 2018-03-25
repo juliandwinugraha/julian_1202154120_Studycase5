@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context="com.example.android.julian_1202154120_studycase5.MenambahAktivitas">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="@string/todo_name"
+                android:textStyle="bold"
+                />
+
+            <EditText
+                android:id="@+id/editTodo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="100dp"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"
+                android:text="@string/description" />
+
+            <EditText
+                android:id="@+id/editDesc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="@string/priority" />
+
+            <EditText
+                android:id="@+id/editPriority"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number" />
+        </LinearLayout>
+
+        <Button
+            android:onClick="tambah"
+            android:id="@+id/buttonTambah"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:background="@color/cardview_light_background"
+            android:text="@string/tambah_todo"
+            android:textColor="@color/blue"
+            android:textStyle="bold" />
+    </LinearLayout>
+</android.support.design.widget.CoordinatorLayout>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">IdaAyuAnila_1202150280_Studycase5</string>
+    <string name="setting">Setting</string>
+    <string name="todo_name">Todo Name</string>
+    <string name="description">Description</string>
+    <string name="priority">Priority</string>
+    <string name="tambah_todo">Tambah Todo</string>
+    <string name="shape_color">Shape Color</string>
+</resources>
